@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItemRenderSkin" width="590" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" x="0" y="0" source=""/>
+	<e:Label id="nameTF" x="191" y="14" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="玩家昵称六字" bold="true"/>
+	<e:Label id="lvTF" x="407" y="14" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="Lv.99" bold="true"/>
+	<e:Label bold="true" id="dwTF" text="额外赠送" x="249" y="62" size="24" textColor="0x6c3e14"/>
+	<e:Label bold="true" id="starTF" text="Label" x="441" y="62" size="24" textColor="0x6C3E14"/>
+	<e:Image id="star6Img" y="60.23" x="403.3" source="sy_duanwei_dankong_png"/>
+	<e:Image id="star6Img2" source="sy_duanwei_zidan_png" x="408.3" y="60.23"/>
+	<e:Image id="jbImg" x="1" source=""/>
+	<e:Image id="headImg" source="" x="83" y="14" height="84" width="84"/>
+	<e:Image source="sy_touxiang_png" x="78" y="9"/>
+	<e:Image id="dwImg" source="sy_duanwei_00_png" x="185" y="54" anchorOffsetX="0" width="60.2" anchorOffsetY="0" height="43" visible="false"/>
+	<e:Image id="mzImg" x="500" y="4" source=""/>
+	<e:Label bold="true" id="rankTF" text="1" x="4" y="7" textColor="0x6c3e14"/>
+	<e:Component id="dwMc" x="179" y="50" skinName="DuanWeiComponentSkin" scaleX="0.3" scaleY="0.3"/>
+</e:Skin>

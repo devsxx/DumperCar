@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainBtnComSkin" height="137" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="rightBg" source="new_main_btn_png" horizontalCenter="0" verticalCenter="0" scaleY="1" scaleX="1"/>
+	<e:Image id="leftBg" source="new_main_btn_png" horizontalCenter="0" verticalCenter="0" scaleY="1" scaleX="-1" x="10" y="10" visible="false"/>
+	<e:Image id="tfImg" anchorOffsetX="71" anchorOffsetY="27" x="159" y="77" source=""/>
+</e:Skin>

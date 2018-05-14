@@ -1,0 +1,12 @@
+{
+	"skin": {},
+	"path": "resource/default.thm.json",
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/MainSceneSkin.exml",
+		"resource/eui_skins/Items/BombSkin.exml",
+		"resource/eui_skins/Items/BrickSkin.exml",
+		"resource/eui_skins/Items/CoinSkin.exml",
+		"resource/eui_skins/Items/PelletSkin.exml"
+	]
+}

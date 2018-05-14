@@ -1,0 +1,42 @@
+{
+    "userConfig": {
+        "strengeMax": 20,
+        "strengeInteval": 900,
+        "hpMax": 100,
+        "goldInit":400,
+        "propMaxNum":99
+    },
+    "damageBonus": {
+        "gunDamageBonus": {
+            "3": 1.2,
+            "2": 0.7
+        },
+        "bodyDamageBonus": {
+            "head": 1.5,
+            "body": 1,
+            "leg": 0.5
+        }
+    },
+    "buttleConfig":{
+        "experGunAdd":1,
+        "experGunMax":150,
+        "strengthConsume":1,
+        "aiShootWaiting":2000,
+        "aiUseProp0Waiting":2000,
+        "aiUseProp12Waiting":1000
+    },
+     "initAis":[
+       {
+            "rankLv": 10,
+            "nickname": "沧海一声笑",
+            "hpLimit": 100,
+            "gunIndex": "0-0",
+            "propIndex": "1-0",
+            "gunHs": [[0, -1], [-1, -1], [1, -1], [-1, -1]],
+            "propHs": [[-1, -1, -1], [1, -1, -1], [1, -1, -1]],
+            "gender": 1,
+            "experience": 164
+        }
+    ],
+    "KLAiCondition":3
+}

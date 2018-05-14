@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonBtn1Skin" width="290" height="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="sy_anniu_00_png" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="100%" height="100%" scale9Grid="82,46,117,0"/>
+	<e:Label id="nameTF" text="" textColor="0x6C3E14" bold="true" touchEnabled="false" anchorOffsetX="0" width="288" textAlign="center" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

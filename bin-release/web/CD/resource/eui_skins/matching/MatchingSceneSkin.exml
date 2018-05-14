@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchingSceneSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6"/>
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0.5"/>
+	<e:Component id="backBtn" x="65.43" y="195.1" anchorOffsetX="44" anchorOffsetY="47" skinName="CommonBackBtnSkin"/>
+	<e:Image id="vs" source="zd_vs_png" y="540" horizontalCenter="0"/>
+	<e:Component id="leftBtn" x="185" y="965.33"  anchorOffsetX="89" anchorOffsetY="38" skinName="CommonMBtnSkin"/>
+	<e:Component id="rightBtn" x="455" y="964"  anchorOffsetX="89" anchorOffsetY="38" skinName="CommonMBtnSkin"/>
+	<e:Component id="leftMc" x="-1" y="362.5" skinName="MatchingLeftComponentSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component id="rightMc" y="609" anchorOffsetX="0" anchorOffsetY="0" skinName="MatchingRightComponentSkin" x="252"/>
+	<e:Label bold="true" id="counterDown" text="10:00" y="866" textAlign="center" horizontalCenter="0" textColor="0x6c3e14"/>
+</e:Skin>

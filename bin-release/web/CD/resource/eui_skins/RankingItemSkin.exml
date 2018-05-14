@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankingItemSkin" width="520" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="520" height="100" fillColor="0x888888" fillAlpha="0.8"/>
+	<e:Image id="avatar" width="80" height="80" x="10" y="10"/>
+	<e:Label id="nickname" text="昵称是六个字" x="105" y="15" size="24"/>
+	<e:Label id="tagTraining" text="射击           命中          爆头" x="105" y="60" size="24"/>
+	<e:Label id="tagDuel" text="决斗           胜利          失败" x="105" y="60" size="24" visible="false"/>
+	<e:Label id="totalShootLabel" text="999" y="60" size="24" horizontalCenter="-70.5" textColor="0xff0000"/>
+	<e:Label id="totalHitLabel" text="999" y="60" size="24" horizontalCenter="49.5" textColor="0xFF0000"/>
+	<e:Label id="headHitLabel" text="999" y="60" size="24" horizontalCenter="164.5" textColor="0xFF0000"/>
+</e:Skin>

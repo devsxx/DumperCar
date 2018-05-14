@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndDialogSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" locked="true" />
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0.5"  locked="true"/>
+	<e:Image y="248.01"  source="zd_jsdb_png" horizontalCenter="0.5"/>
+	<e:Image id="effImg" source="zd_slgx_png" x="60" y="297.46" visible="false"/>
+	<e:Image source="zd_zsnt_png" x="137" y="243.46" />
+	<e:Image y="656.74" x="149.36"  source="sj_xian_png"/>
+	<e:Image id="avatarMe" width="86" height="86" x="186" y="580" anchorOffsetX="43" anchorOffsetY="43"/>
+	<e:Image source="sy_touxiang_png" x="139" y="533" />
+	<e:Label id="desTF1" x="284" y="530" size="30" text="" anchorOffsetX="0" textColor="0xFFFFFF" lineSpacing="10" bold="true" />
+	<e:Label id="desTF2" x="284" y="683" size="30" text="" anchorOffsetX="0" textColor="0xFFFFFF" lineSpacing="10" bold="true" />
+	<e:Label id="lvTF" x="125.3" y="837.21" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="lv.99"
+	         anchorOffsetX="0" width="127.4" textAlign="center"  bold="true"/>
+	<e:Component id="dwMc2" x="272.88" y="669.55" skinName="DuanWeiComponentSkin" scaleX="0.3" scaleY="0.3"/>
+	<e:Image id="dwImg2" x="448.8" y="719.4"  scaleX="0.3" scaleY="0.3" source="sy_duanwei_00_png" visible="false"/>
+	<e:Component id="dwMc1" x="488" y="580" skinName="DuanWeiComponentSkin" anchorOffsetX="105" anchorOffsetY="92"/>
+	<e:Image id="dwImg1" x="389" y="489.3"  source=""/>
+	<e:Image id="avatarTarget" width="86" height="86" x="186" y="767" anchorOffsetX="43" anchorOffsetY="43"/>
+	<e:Image source="sy_touxiang_png" x="139" y="720" />
+	<e:Label id="rewardTF" text="" y="975" horizontalCenter="20.5" bold="true" />
+	<e:Label text="分享可获得" x="196" y="1016" textColor="0xb97527" size="24" bold="true"/>
+	<e:Label text="X10" x="384" y="1016" textColor="0xb97527" size="24" bold="true"/>
+	<e:Image source="sy_jinbi_png" x="326" y="1004" scaleX="0.8" scaleY="0.8"/>
+	<e:Component id="leftBtn" x="193" y="1097.65" skinName="CommonMBtnSkin" anchorOffsetX="101" width="202" anchorOffsetY="38"/>
+	<e:Component id="rightBtn" x="455" y="1096.65" skinName="CommonMBtnSkin" anchorOffsetX="102" width="202" anchorOffsetY="38"/>
+
+	<e:Component id="backBtn" x="65.43" y="195.1" anchorOffsetX="44" anchorOffsetY="47" skinName="CommonBackBtnSkin" visible="false"/>
+
+</e:Skin>

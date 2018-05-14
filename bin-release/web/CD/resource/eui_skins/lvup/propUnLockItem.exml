@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="propUnLockItem" width="232" height="82" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="sj_wpl_png"  x="0" y="0"/>
+    <e:Image source="" id="img_prop"  x="48" verticalCenter="0"/>
+    <e:Label id="label_prop" size="20" textColor="0xB97326" text="死亡左轮"  x="106" textAlign="left" verticalCenter="0" bold="true" />
+</e:Skin>

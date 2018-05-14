@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainRotation2Skin" width="410" height="410" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="new_main_menu_bg_png" x="0" y="0" anchorOffsetX="0" width="410" anchorOffsetY="0" height="410"/>
+	<e:Group id="itemList" width="0" height="0" x="205" y="205">
+		<e:Component id="p0" y="-150" skinName="MainDaojuItemRenderSkin" anchorOffsetX="50" anchorOffsetY="51" x="0" scaleX="1" scaleY="1" touchEnabled="true"/>
+		<e:Component id="p7" x="105" y="-105" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="53" anchorOffsetY="52" scaleX="1" scaleY="1"/>
+		<e:Component id="p6" x="150" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="52" anchorOffsetY="52" y="0" scaleX="1" scaleY="1"/>
+		<e:Component id="p5" x="105" y="105" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="49" anchorOffsetY="51" scaleX="1" scaleY="1"/>
+		<e:Component id="p4" y="150" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="50" anchorOffsetY="50" x="0" scaleX="1" scaleY="1"/>
+		<e:Component id="p3" x="-105" y="105" skinName="MainDaojuItemRenderSkin" anchorOffsetX="50" anchorOffsetY="50" scaleX="1" scaleY="1"/>
+		<e:Component id="p2" x="-150" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="50" anchorOffsetY="50" y="0" scaleX="1" scaleY="1"/>
+		<e:Component id="p1" x="-105" y="-105" skinName="MainDaojuItemRenderSkin" rotation="0" anchorOffsetX="49" anchorOffsetY="52" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

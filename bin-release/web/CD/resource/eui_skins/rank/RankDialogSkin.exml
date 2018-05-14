@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankDialogSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0" />
+	<e:Group id="topGroup" y="127" width="640">
+		<e:Image source="cz_dingban_png" y="58" horizontalCenter="0" />
+		<e:Image y="0" source="ph_ph_png" horizontalCenter="0" />
+		<e:Component id="tabBtn1" y="142" skinName="RankTabComponentSkin" x="160.5" anchorOffsetX="94.5" anchorOffsetY="15" />
+		<e:Component id="tabBtn2" y="142" skinName="RankTabComponentSkin" x="479.5" anchorOffsetX="94.5" anchorOffsetY="15" />
+	</e:Group>
+	<e:Group id="middleGroup" y="295" width="640">
+		<e:Label bold="true" id="desTF" size="24" text="当前我的世界排名" y="20" horizontalCenter="0" textColor="0x6c3e14"
+		         textAlign="center" />
+		<e:Image source="sj_xian_png" y="57" horizontalCenter="0" />
+		<e:Image id="middleBg" source="cz_xlkd_png" scale9Grid="13,13,8,9" width="600" height="850" horizontalCenter="0" y="0" />
+		<e:Scroller id="scroll" width="590" height="682" y="84" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group id="list" />
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="bottomGroup" width="640" y="1154"  x="317" anchorOffsetX="317" anchorOffsetY="93">
+		<e:Image y="43" source="cz_diban_png" horizontalCenter="0" />
+		<e:Image y="0" source="sz_db_png" horizontalCenter="0" />
+		<e:Image x="309" y="11" source="ph_fxb_png" horizontalCenter="0" />
+		<e:Label text="分享到微信群   查看群排行" y="82" textColor="0x6c3e14" size="24" horizontalCenter="0" textAlign="center" />
+		<e:Label id="shareNode0" text="可获得分享奖励" x="178" y="142" size="20"  bold="true" textColor="0xb97326"/>
+		<e:Image id="shareNode1" x="346" y="128" source="sy_tilitubiao_png" scaleX="0.8" scaleY="0.8" />
+		<e:Label id="shareNode2" text="x200" x="398" y="142" size="20" textColor="0xffffff" stroke="2" strokeColor="0xb97326" />
+	</e:Group>
+	<e:Component id="backBtn" x="63.09" y="192.43" anchorOffsetX="42" anchorOffsetY="47" skinName="CommonBackBtnSkin" />
+
+</e:Skin>

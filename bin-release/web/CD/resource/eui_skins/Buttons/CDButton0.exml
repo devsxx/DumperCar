@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CDButton0" maxWidth="284" minHeight="90" states="up,down" xmlns:e="http://ns.egret.com/eui"  >
+    <e:Image width="100%" height="100%" source="sy_anniu_00_png"/>
+    <e:Label id="labelDisplay" text="排位战" textColor="0x6c3e14" size="30"   horizontalCenter="0" verticalCenter="0" bold="true" />
+</e:Skin>
+

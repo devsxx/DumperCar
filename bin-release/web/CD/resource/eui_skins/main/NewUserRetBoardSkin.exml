@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewUserRetBoardSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" x="0" y="0" fillAlpha="0.6"/>
+	<e:Image source="tishiban_png" x="50.24" y="398.94"/>
+	<e:Component id="itemMc" x="154.24" y="652.94" skinName="HouseItem"/>
+	<e:Button   id="getBtn" label="Button" x="413.62" y="724.82" skinName="CommonMBtnSkin" anchorOffsetX="123" anchorOffsetY="38"/>
+	<e:Label bold="true" id="guideText" text="道具信息可以在仓库中查看，赠送您5个单管炸弹，开始西部之旅吧！" x="105.74" y="462.94" scaleX="1" scaleY="1" size="24" anchorOffsetX="0" width="415" anchorOffsetY="0" height="108" lineSpacing="10" textColor="0x6C3E14" textAlign="left" verticalAlign="middle"/>
+	<e:Image source="sj_xian_png" x="115.75" y="621.32"/>
+</e:Skin>

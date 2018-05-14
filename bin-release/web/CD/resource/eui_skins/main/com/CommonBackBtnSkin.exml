@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonBackBtnSkin" width="90" height="90" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="new_main_menu_btn_png" x="0" y="0" width="90" height="90"/>
+	<e:Image id="tfImg" horizontalCenter="-4" verticalCenter="3" source="wz_fh_png"/>
+</e:Skin>

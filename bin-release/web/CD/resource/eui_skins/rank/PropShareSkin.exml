@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropShareSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+    <e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0" />
+    <e:Group id="middleGroup" y="295" width="640">
+        <e:Image id="middleBg" source="cz_xlkd_png" scale9Grid="13,13,8,9" width="600" height="962" horizontalCenter="0"
+                 y="-122" anchorOffsetY="0" />
+        <e:Image x="30" y="-102" source="fx_jiaobiao_png" rotation="0" />
+        <e:Image x="610" y="-102" source="fx_jiaobiao_png" rotation="90" />
+        <e:Group id="mePropGroup" width="640" y="-42">
+            <e:Label bold="true" id="ATF" text="命中率" y="-15" textAlign="center" size="22" horizontalCenter="0" />
+            <e:Label bold="true" id="BTF" text="左轮胜场" y="50" textAlign="center" size="22" horizontalCenter="157" />
+            <e:Label bold="true" id="CTF" text="步枪胜场" y="190" textAlign="center" size="22" horizontalCenter="157" />
+            <e:Label bold="true" id="DTF" text="散弹胜场" y="240" textAlign="center" size="22" horizontalCenter="0" />
+            <e:Label bold="true" id="ETF" text="狙击胜场" y="190" textAlign="center" size="22" horizontalCenter="-150" />
+            <e:Label bold="true" id="FTF" text="爆头率" y="50" textAlign="center" size="22" horizontalCenter="-147" />
+            <e:Rect width="200" height="200" x="320" y="131" anchorOffsetX="100" anchorOffsetY="100" visible="false" />
+        </e:Group>
+        <e:Image source="sj_xian_png" horizontalCenter="0" y="260" />
+        <e:Group y="312" width="640">
+            <e:Image source="fx_kuang_png" scaleX="2" scaleY="2" scale9Grid="31,5,188,30" horizontalCenter="0"
+                     verticalCenter="0" />
+            <e:Image id="headImg" source="" x="45" y="5" height="84" width="84" />
+            <e:Image source="sy_touxiang_png" x="40" y="0" />
+            <e:Label text="Label" textColor="0xffffff" stroke="2" strokeColor="0xb97326" x="171"
+                     anchorOffsetX="0" verticalAlign="middle" textAlign="left"  size="24" verticalCenter="0"/>
+        </e:Group>
+    </e:Group>
+    <e:Group id="bottomGroup" width="640" y="1000" anchorOffsetX="320" x="320" anchorOffsetY="0" height="156">
+        <e:Button id="shareToFriend" y="38" anchorOffsetX="123" anchorOffsetY="38" skinName="CommonMBtnSkin" x="173" />
+        <e:Button id="saveToAlbum" y="38" anchorOffsetX="123" anchorOffsetY="38" skinName="CommonMBtnSkin" x="467" />
+        <e:Image x="30" y="116" source="fx_jiaobiao_png" rotation="-90" />
+        <e:Image x="610" y="116" source="fx_jiaobiao_png" rotation="-180" />
+    </e:Group>
+    <e:Component id="backBtn" x="63.09" y="192.43" anchorOffsetX="42" anchorOffsetY="47" skinName="CommonBackBtnSkin" />
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PelletSkin" width="60" height="60" xmlns:e="http://ns.egret.com/eui">
+<e:Image source="pellet_png" height="60" width="60"  anchorOffsetX="30" anchorOffsetY="30" x="30" y="30" />
+</e:Skin>

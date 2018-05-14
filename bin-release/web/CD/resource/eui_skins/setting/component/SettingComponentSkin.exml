@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingComponentSkin" width="169" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label bold="true" id="nameTF" text="音乐" x="14" y="15" size="24" textColor="0x6C3E14"/>
+	<e:Image source="zd_sbdk_png" x="113" y="5"/>
+	<e:Image id="okImg" source="ck_tubiao_dangqian_png" x="124.5" y="11"/>
+</e:Skin>

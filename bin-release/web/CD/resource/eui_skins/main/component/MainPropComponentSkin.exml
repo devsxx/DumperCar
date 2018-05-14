@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainPropComponentSkin" width="86" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="sy_zhuangbeilan_png" horizontalCenter="0" verticalCenter="-17"/>
+	<e:Image id="iconImg" horizontalCenter="0" verticalCenter="-17" source=""/>
+	<e:Image id="tfImg" y="89" horizontalCenter="0" source=""/>
+	<e:Label bold="true" id="noneTF" text="空" y="21" size="40" horizontalCenter="0" visible="false"/>
+</e:Skin>

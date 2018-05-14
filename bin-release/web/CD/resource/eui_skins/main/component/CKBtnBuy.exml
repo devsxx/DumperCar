@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CKBtnBuy" states="up,down"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="150" height="60">
+        <e:Image source="ck_anniu_goumai_png" />
+        <e:Image id="img_left" source="sy_jinbi_png"  x="20" scaleX="0.8" scaleY="0.8" verticalCenter="0"/>
+        <e:Label bold="true" id="label_right" text="200" size="18" textColor="0xffffff" stroke="2" strokeColor="0xb97326"   y="21" x="76"/>
+</e:Skin>

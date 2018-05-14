@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChargeItemRenderSkin" width="590" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="cz_diban_png" x="0" y="0"/>
+	<e:Label id="diamondTF" x="186" y="59" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="玩家昵称六字" bold="true" />
+	<e:Image id="costImg" verticalCenter="-3" left="408" source=""/>
+	<e:Label id="firstTF" text="首充双倍" x="186" y="97" textColor="0xb97527" size="24" bold="true" />
+	<e:Image id="iconImg" x="18" y="13" source=""/>
+</e:Skin>

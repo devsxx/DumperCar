@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CKBtnBack" states="up,down" xmlns:e="http://ns.egret.com/eui" width="180" height="70">
+        <e:Image source="ck_anniu_fanhui_png" />
+        <e:Label bold="true"  id="label" text="返 回" size="30" textColor="0x6c3e14"  horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseSceneSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+    <e:Image source="ck_diban_jpg"  verticalCenter="-1"/>
+
+    <e:Group id="groupLeft" height="1386"  width="310">
+	    <e:Image source="ck_ceban_png"  verticalCenter="0"/>
+        <e:Component id="btnBack"  x="105.93" y="41.41" anchorOffsetX="89" anchorOffsetY="38" skinName="CommonBackBtnSkin"/>
+        <e:Image id="coinImg" source="sy_jinbi_png" x="58" y="1120" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="coinTF" x="114" y="1129" textColor="0xffffff" stroke="2" strokeColor="0xb97326" size="30" text="" bold="true"/>
+		<e:Image id="diamondImg" source="sy_zuanshi_png" x="58" y="1178" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="diamondTF" x="114" y="1187" textColor="0xffffff" stroke="2" strokeColor="0xb97326" size="30" text="" bold="true"/>
+
+    </e:Group>
+   
+  
+
+    <e:Group id="groupRight"  width="330" x="310"  y="124">
+        <e:Label id="ck_title" text="仓 库" textColor="0x6c3e14" size="30" x="5" y="200"  bold="true"/>
+        <e:Image  y="238" x="5" source="sj_xian_png" width="320"/>
+       
+
+        <e:Group id="groupHouse" width="330" x="0" y="244" height="1014" anchorOffsetY="0"> 
+           <!--<e:Group id="itemsGroup" width="330" y="30" x="0"  height="820" visible="false">
+           </e:Group>-->
+            
+        </e:Group>
+        <!--<e:Group id="groupGunHouse" width="330" height="1058" y="80" visible="false"> 
+        </e:Group>-->
+        <!--<e:Group id="groupPropsHouse" width="330" height="1058" y="80" visible="false"> 
+        </e:Group>-->
+        <e:Group id="groupDetial" width="330" y="124" height="1014" visible="false"> 
+            <e:Label id="labelNumLeft" text="数量：" textColor="0x6c3e14" size="20"  y="678" x="5" bold="true"/>
+            <e:Label bold="true" id="labelNum" text="99" size="20"  y="678" horizontalCenter="0" textAlign="center" textColor="0xb97326"/>
+            <e:Label id="labelBuy" text="购买：" textColor="0x6c3e14" size="20"  y="738" x="5" bold="true" />
+            <e:Component id="btnBuy0" skinName="CKBtnBuy"  y="804" x="80"  anchorOffsetX="75" anchorOffsetY="30"/>
+            <e:Component id="btnBuy1" skinName="CKBtnBuy"  y="804" x="250" anchorOffsetX="75" anchorOffsetY="30"/>
+            <e:Component id="btnUse"   horizontalCenter="0.5" anchorOffsetX="122" anchorOffsetY="39" y="939" skinName="CommonBtn2Skin"/>
+            <e:Label text="XX级解锁获得" id="unlockLevel"  y="947"  horizontalCenter="0" textColor="0xff0000" anchorOffsetY="15" bold="true" visible="false"/>
+            <e:Image id="line_down"  y="850" x="5" source="sj_xian_png" width="320"/>
+
+
+            <e:Label id="propTitle" text="死亡左轮" size="22"  y="150" horizontalCenter="0"  bold="true" textColor="0x6c3e14"/>
+            <e:Image id="propIcon"  x="165" y="270" source=""/>
+            <e:Label id="propDes" text="见过这把枪的人都死掉了"  size="20" x="15" y="370" textColor="0xb97326"  width="300" bold="true"/>
+            <e:Label id="experTitle" text="熟练度：" x="15" y="426" size="24" textColor="0x6c3e14"  bold="true"/>
+            <e:Label id="experValue"  text=""  size="20" y="428" textColor="0xb97326" horizontalCenter="0.5" bold="true"/>
+            <e:Group id="attrGroup" width="330"  y="484">
+               
+            </e:Group>
+        
+        </e:Group>
+       
+
+    </e:Group>
+  
+</e:Skin>

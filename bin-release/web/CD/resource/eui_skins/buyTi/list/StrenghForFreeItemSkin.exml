@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrenghForFreeItemSkin" width="590" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="cz_diban_png" x="0" y="0"/>
+	<e:Image source="cz_tili_1_png" x="356" verticalCenter="0"/>
+	<e:Label id="diamondTF" x="484" y="56" textColor="0xFFFFFF" stroke="2" strokeColor="0xb97326" size="24" text="X 1" bold="true" textAlign="left"/>
+	<e:Image id="iconImg" source="" x="28" y="17"/>
+	<e:Label id="labelForFree" text="分享到微信群免费获取体力" x="40" y="99" size="24" textColor="0xb97326" bold="true" textAlign="left"/>
+	<e:Image x="40" source="tili_png"  verticalCenter="-18.5"/>
+</e:Skin>

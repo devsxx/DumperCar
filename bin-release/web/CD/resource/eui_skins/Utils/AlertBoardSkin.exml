@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AlertBoardSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="rect" width="640" height="1386" x="0" y="0" fillAlpha="0.6" />
+    <e:Image source="tishiban_png" horizontalCenter="0" verticalCenter="0" />
+    <e:Image source="sz_btt_png" horizontalCenter="0" anchorOffsetY="5"  y="565"/>
+    <e:Label id="labelInfo" bold="true" text="分享到微信群才能获得奖励" scaleX="1" scaleY="1" size="24"
+             anchorOffsetX="0" width="415" anchorOffsetY="0" height="177" lineSpacing="10" textColor="0x6C3E14"
+             textAlign="center" verticalAlign="middle" horizontalCenter="0.5"  y="585"/>
+    <e:Button id="btnSure" label="Button" y="812" skinName="CommonLBtnSkin" horizontalCenter="1"  anchorOffsetX="155" anchorOffsetY="42"/>
+	<e:Label text="提  示" y="550" horizontalCenter="0" textColor="0xb97326"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuyTiItemRenderSkin" width="590" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="cz_diban_png" x="0" y="0"/>
+	<e:Label id="desTF" x="186" y="59" textColor="0xFFFFFF" stroke="2" strokeColor="0xb97326" size="24" text="玩家昵称六字" bold="true"/>
+	<e:Image source="sy_zuanshi_png" x="404" y="40"/>
+	<e:Label id="diamondTF" x="469" y="56" textColor="0xFFFFFF" stroke="2" strokeColor="0xb97326" size="30" text="9999" bold="true" textAlign="left"/>
+	<e:Image id="iconImg" source="" x="28" y="17"/>
+</e:Skin>

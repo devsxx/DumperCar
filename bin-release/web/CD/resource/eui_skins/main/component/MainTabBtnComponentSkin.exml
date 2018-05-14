@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainTabBtnComponentSkin" width="128" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" x="0" y="0" source="new_main_tab_bj_png"/>
+	<e:Image id="tfImg" verticalCenter="0" horizontalCenter="7" source=""/>
+</e:Skin>

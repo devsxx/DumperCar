@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrickSkin"  height="30" width="100"  xmlns:e="http://ns.egret.com/eui">
+<e:Image source="stick_png" height="30" width="100" />
+</e:Skin>

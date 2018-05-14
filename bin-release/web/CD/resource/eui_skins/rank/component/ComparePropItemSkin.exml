@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ComparePropItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="fx_kuang_png" />
+    <e:Label id="title" text="Label" x="30" verticalCenter="0" size="20" bold="true" textAlign="left"
+             textColor="0xffffff" stroke="2" strokeColor="0xb97326" />
+    <e:Label id="value" text="jepwp" x="140" textColor="0xffffff" verticalCenter="0" size="20" bold="true" stroke="2" strokeColor="0xb97326" />
+</e:Skin>

@@ -1,0 +1,80 @@
+{
+	"groups": [],
+	"resources": [
+		{
+			"url": "assets/.DS_Store",
+			"type": "bin",
+			"name": "_DS_Store"
+		},
+		{
+			"url": "assets/sound/.DS_Store",
+			"type": "bin",
+			"name": "_DS_Store"
+		},
+		{
+			"url": "assets/ui/.DS_Store",
+			"type": "bin",
+			"name": "_DS_Store"
+		},
+		{
+			"url": "assets/ui/bomb.png",
+			"type": "image",
+			"name": "bomb_png"
+		},
+		{
+			"url": "assets/ui/coin.png",
+			"type": "image",
+			"name": "coin_png"
+		},
+		{
+			"url": "assets/ui/dir_control.png",
+			"type": "image",
+			"name": "dir_control_png"
+		},
+		{
+			"url": "assets/ui/speed_down.png",
+			"type": "image",
+			"name": "speed_down_png"
+		},
+		{
+			"url": "assets/ui/speed_up.png",
+			"type": "image",
+			"name": "speed_up_png"
+		},
+		{
+			"url": "assets/ui/stick.png",
+			"type": "image",
+			"name": "stick_png"
+		},
+		{
+			"url": "assets/ui/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/ui/speed_down_area.png",
+			"type": "image",
+			"name": "speed_down_area_png"
+		},
+		{
+			"url": "assets/ui/speed_down_btn.png",
+			"type": "image",
+			"name": "speed_down_btn_png"
+		},
+		{
+			"url": "assets/ui/speed_up_area.png",
+			"type": "image",
+			"name": "speed_up_area_png"
+		},
+		{
+			"url": "assets/ui/speed_up_btn.png",
+			"type": "image",
+			"name": "speed_up_btn_png"
+		},
+		{
+			"url": "assets/ui/pellet.png",
+			"type": "image",
+			"name": "pellet_png"
+		}
+	]
+}

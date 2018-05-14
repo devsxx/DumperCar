@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BombSkin" height="60" width="60"  xmlns:e="http://ns.egret.com/eui">
+<e:Image source="bomb_png" height="60" width="60" />
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QualifyingSceneSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6"/>
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0.5" height="1000"/>
+	<e:Group id="grp1" y="326.8" x="114" height="0" width="0">
+		<e:Image source="zd_jsmb_png" anchorOffsetX="0" width="412.85" anchorOffsetY="0" height="550.98" x="0" y="0"/>
+		<e:Label id="desTF1" text="AAAAA\nBBBBBBBBBB\nCCCCCCCCCCCC" y="586" anchorOffsetX="0" anchorOffsetY="0" height="214.85" textAlign="center" lineSpacing="30" bold="true" width="1050.91" x="-318.95"/>
+		<e:Label id="tapTag" text="点击屏幕继续" y="440.7" scaleX="1" scaleY="1" anchorOffsetX="0" size="24" bold="true" textColor="0x6c3e14" horizontalCenter="207.5" visible="false"/>
+	</e:Group>
+	<e:Group id="grp2" x="138" y="618.3" width="0" height="0" visible="false">
+		<e:Image id="tweenImg" source="zd_ljx_png" y="91.69" anchorOffsetX="123" anchorOffsetY="123" x="185"/>
+		<e:Image source="zd_zsnt_png" y="31.12" x="2"/>
+		<e:Image source="sj_xian_png" x="2.9" y="263.5"/>
+		<e:Label id="desTF2" text="正在寻找对手..." y="-121.2" textColor="0x6c3e14" horizontalCenter="181.5" bold="true"/>
+		<e:Label id="grp2LabelDown" text="等待6-10秒\n抬起将会取消战斗" y="336.65" textColor="0xb97527" bold="true" horizontalCenter="180.5" textAlign="center" lineSpacing="20"/>
+	</e:Group>
+	<e:Component id="backBtn" x="63.43" y="195.1" anchorOffsetX="42" anchorOffsetY="47" skinName="CommonBackBtnSkin"/>
+</e:Skin>

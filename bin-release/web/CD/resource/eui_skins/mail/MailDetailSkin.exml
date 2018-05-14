@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailDetailSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect" width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+	<e:Image id="bg" verticalCenter="0" horizontalCenter="0.5" source="zd_jsmb_png" />
+	<e:Image id="middleLine" y="800"  source="sj_xian_png" horizontalCenter="0.5"/>
+
+	<e:Group id="board" width="436" y="450" horizontalCenter="0" anchorOffsetY="0" height="350"></e:Group>
+	<e:Label id="title" text="邮件标题" y="384" horizontalCenter="0" textColor="0x6c3e14" bold="true" />
+	<e:Group id="attachment" width="436" y="812" horizontalCenter="0" anchorOffsetY="0" height="106"></e:Group>
+	<e:Component id="okBtn" y="973.95" anchorOffsetX="106.87" anchorOffsetY="33.37" skinName="CommonBtn1Skin"
+	             horizontalCenter="0" width="213.88" height="67" />
+</e:Skin>

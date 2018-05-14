@@ -1,0 +1,16 @@
+{
+    "charge":[6,30,68,128,328,648],
+    "buyTi":[
+        [10,50],
+        [20,90],
+        [30,120],
+        [40,140]
+    ],
+     "share":{
+        "shareStrenghBonus": 5,
+        "dailyShareMax": 3,
+        "shareInterval":300
+
+    }
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BonusItemSkin"  width="106" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+	<e:Image id="itemImg" y="43" horizontalCenter="0" source=""/>
+	<e:Label bold="true" id="itemNum" text="" y="76" horizontalCenter="0" size="20" textColor="0x6c3e14"/>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingDialogSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1386" horizontalCenter="0" verticalCenter="0" fillAlpha="0.6"/>
+	<e:Image source="zd_jsmb_png" x="57" y="342"/>
+	<e:Image id="headImg" source="" x="99" y="378" height="84" width="84"/>
+	<e:Image source="sy_touxiang_png" x="94" y="373"/>
+	<e:Label bold="true" id="versionTF" text="" y="982" textColor="0xB97527" size="24" horizontalCenter="0"/>
+	<e:Component id="shareBtn1" y="433.82" anchorOffsetX="72" anchorOffsetY="26.5" x="477" skinName="CommonSBtnSkin"/>
+	<e:Component id="shareBtn2" y="856.72" anchorOffsetX="73" anchorOffsetY="27.5" x="477" skinName="CommonSBtnSkin"/>
+	<e:Component id="dwMc1" x="488" y="550" skinName="DuanWeiComponentSkin" anchorOffsetX="105" anchorOffsetY="92" visible="false"/>
+	<e:Label bold="true" id="lvTF" x="77.3" y="478.32" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="lv.99" anchorOffsetX="0" width="127.4" textAlign="center"/>
+	<e:Label bold="true" id="nameTF" x="204.7" y="386" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="24" text="" anchorOffsetX="0" textAlign="left" lineSpacing="15"/>
+	<e:Image id="dwImg" x="149.9" y="533.32" scaleX="0.3" scaleY="0.3" anchorOffsetX="0" anchorOffsetY="0" source="" visible="false"/>
+	<e:Component id="dwMc" x="150" y="530" skinName="DuanWeiComponentSkin" scaleX="0.3" scaleY="0.3"/>
+	<e:Image source="sz_btt_png" x="99" y="515"/>
+	<e:Image source="sj_xian_png" y="902" x="138"/>
+	<e:Label bold="true" id="pwTF" text="Label" x="215.22" y="543.32" size="24" textColor="0x6c3e14"/>
+	<e:Label bold="true" text="排位数据" x="263.22" y="508.32" size="22" textColor="0xb97527"/>
+	<e:Label bold="true" id="starTF" text="Label" x="420.9" y="543.32" size="24" textColor="0x6C3E14"/>
+	<e:Image id="star6Img" y="540" x="373" source="sy_duanwei_dankong_png"/>
+	<e:Image id="star6Img2" source="sy_duanwei_zidan_png" x="378" y="540"/>
+	<e:Component id="yyMc" x="204.7" y="939" skinName="SettingComponentSkin" anchorOffsetX="84" anchorOffsetY="25"/>
+	<e:Component id="yxMc" x="432.5" y="939" skinName="SettingComponentSkin" anchorOffsetX="86" anchorOffsetY="25"/>
+	<e:Rect width="200" height="200" x="320" y="730" anchorOffsetX="100" anchorOffsetY="100" visible="false"/>
+	<e:Label bold="true" id="ATF" text="命中率" y="581.37" textAlign="center" size="22" horizontalCenter="0"/>
+	<e:Label bold="true" id="BTF" text="左轮胜场" y="630" textAlign="center" size="22" horizontalCenter="157"/>
+	<e:Label bold="true" id="CTF" text="步枪胜场" y="770" textAlign="center" size="22" horizontalCenter="157"/>
+	<e:Label bold="true" id="DTF" text="散弹胜场" y="836.73" textAlign="center" size="22" horizontalCenter="0"/>
+	<e:Label bold="true" id="ETF" text="狙击胜场" y="770" textAlign="center" size="22" horizontalCenter="-150"/>
+	<e:Label bold="true" id="FTF" text="爆头率" y="630" textAlign="center" size="22" horizontalCenter="-147"/>
+	<e:Image source="sz_db_png" x="266" y="292"/>
+	<e:Image id="mzImg" source="" x="267" y="289"/>
+	<e:ProgressBar id="lvPrg" x="193.35" y="482.32" skinName="SettingPrgComponentSkin"/>
+	<e:Label bold="true" id="expTF" text="0/0" y="479.36" size="20" horizontalCenter="-9.5" textColor="0xf4f0ed"/>
+</e:Skin>

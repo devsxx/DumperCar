@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GunAttrItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="330" height="20">
+	<e:Label id="label_k" text="伤害" size="20"    textColor="0x6c3e14" x="15" bold="true"/>  
+    <e:Label id="label_v" text="29" size="20" textColor="0xb97326"  horizontalCenter="0" bold="true"/>
+	<e:Image id="zxImg" source="ck_zhunxing_png" y="-11" horizontalCenter="6" visible="false"/> 
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InfoBoardSkin" width="560" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="560" height="480" fillAlpha="0.6"/>
+	<e:Label id="btn" text="Label" y="400" horizontalCenter="0"/>
+	<e:Label id="tag" text="Label" x="20" y="40" width="520" height="300" textAlign="center" verticalAlign="middle" size="24"/>
+</e:Skin>

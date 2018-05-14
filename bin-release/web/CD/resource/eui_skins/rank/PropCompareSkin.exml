@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropCompareSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0" />
+	<e:Group id="middleGroup" y="295" width="640">
+		<e:Image id="middleBg" source="cz_xlkd_png" scale9Grid="13,13,8,9" width="600" height="962" horizontalCenter="0"
+		         y="-122" anchorOffsetY="0" />
+		<e:Image source="sz_btt_png" horizontalCenter="0" y="-87" anchorOffsetY="5" />
+		<e:Label text="比一比" horizontalCenter="0" y="-102" textColor="0xb97326"  bold="true"/>
+		<e:Group id="mePropGroup" width="640" y="-42">
+			<e:Label bold="true" id="ATF" text="命中率" y="-15" textAlign="center" size="22" horizontalCenter="0" />
+			<e:Label bold="true" id="BTF" text="左轮胜场" y="50" textAlign="center" size="22" horizontalCenter="157" />
+			<e:Label bold="true" id="CTF" text="步枪胜场" y="190" textAlign="center" size="22" horizontalCenter="157" />
+			<e:Label bold="true" id="DTF" text="散弹胜场" y="240" textAlign="center" size="22" horizontalCenter="0" />
+			<e:Label bold="true" id="ETF" text="狙击胜场" y="190" textAlign="center" size="22" horizontalCenter="-150" />
+			<e:Label bold="true" id="FTF" text="爆头率" y="50" textAlign="center" size="22" horizontalCenter="-147" />
+			<e:Rect width="200" height="200" x="320" y="131" anchorOffsetX="100" anchorOffsetY="100" visible="false"/>
+		</e:Group>
+		<e:Image source="sj_xian_png" horizontalCenter="0" y="260" />
+		<e:Group  y="282" width="640">
+			<e:Component id="leftMc" x="18" y="0" skinName="MatchingLeftComponentSkin"   scaleX="0.75" scaleY="0.75"/>
+			<e:Component id="rightMc" x="622" y="0"  skinName="MatchingRightComponentSkin"   anchorOffsetX="388" scaleX="0.75" scaleY="0.75"/>
+		</e:Group>
+
+		<e:Group id="compareGroup"  width="640" y="420" >
+		
+		</e:Group>
+
+	</e:Group>
+	<e:Group id="bottomGroup" width="640" y="1155.5" anchorOffsetX="320" x="320" anchorOffsetY="94.5">
+		<e:Image y="43" source="cz_diban_png" horizontalCenter="0" />
+		<e:Image y="0" source="sz_db_png" horizontalCenter="0" />
+		<e:Image x="309" y="11" source="ph_fxb_png" horizontalCenter="0" />
+		<e:Label text="分享到微信群   查看群排行" y="82" textColor="0x6c3e14" size="24" horizontalCenter="0" textAlign="center" />
+		<e:Label id="shareNode0" text="可获得分享奖励" x="178" y="142" size="20" bold="true" textColor="0xb97326" />
+		<e:Image id="shareNode1" x="346" y="128" source="sy_tilitubiao_png" scaleX="0.8" scaleY="0.8" />
+		<e:Label id="shareNode2" text="x200" x="398" y="142" size="20" textColor="0xffffff" stroke="2" strokeColor="0xb97326" />
+	</e:Group>
+	<e:Component id="backBtn" x="63.09" y="192.43" anchorOffsetX="42" anchorOffsetY="47" skinName="CommonBackBtnSkin" />
+</e:Skin>

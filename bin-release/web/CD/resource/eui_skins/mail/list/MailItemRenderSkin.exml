@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailItemRenderSkin" width="590" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="" x="0" y="0"/>
+	<e:Label id="nameTF" text="邮件标题" x="125" y="20" textColor="0x6c3e14" size="28" bold="true" />
+	<e:Label id="timeTF" text="" x="125" y="62" textColor="0xb97527" size="24" bold="true" />
+	<e:Image id="icon" x="56" y="56" source=""/>
+</e:Skin>

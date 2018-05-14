@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleEndRankSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+    <e:Group width="640" verticalCenter="0" anchorOffsetY="0" height="318">
+        <e:Label id="rankName" text="见习青铜Ⅲ" horizontalCenter="0" textAlign="center" size="30" stroke="2"
+                 strokeColor="0xb97326" />
+        <e:Component id="rankIcon" skinName="DuanWeiComponentSkin" horizontalCenter="0" anchorOffsetX="106"
+                     anchorOffsetY="93.5" y="143.5" />
+        <e:Label text="星级 +2" y="258" horizontalCenter="0" textAlign="center" size="30" visible="false" />
+        <e:Component id="btnLeft" skinName="CommonMBtnSkin" x="202" y="288" anchorOffsetX="121" anchorOffsetY="39"
+                     scaleX="0.8" scaleY="0.8" />
+        <e:Component id="btnRight" skinName="CommonMBtnSkin" x="438" y="288" anchorOffsetX="122" anchorOffsetY="39"
+                     scaleX="0.8" scaleY="0.8" />
+    </e:Group>
+</e:Skin>

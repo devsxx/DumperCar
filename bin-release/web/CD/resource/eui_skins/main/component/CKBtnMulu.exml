@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CKBtnMulu" states="up,down"  xmlns:e="http://ns.egret.com/eui" width="320" height="110">
+    <e:Image x="0" y="0" source="ck_anniu_mulu_png"/>
+	<e:Image id="img_type" x="55" y="55"/>
+	<e:Label id="label_type" text="Label" x="160" y="40" size="30" bold="true" textColor="0x6c3e14"/>
+
+</e:Skin>

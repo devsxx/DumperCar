@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchingRightComponentSkin" width="388" height="155" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImg" y="26" horizontalCenter="-115" source="" width="100" height="100"/>
+	<e:Image source="zd_ppdb_png" y="0" x="398" scaleX="-1"/>
+	<e:Component id="mc" x="136.4" y="42.93" skinName="DuanWeiComponentSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.3" scaleY="0.3"/>
+	<e:Label bold="true" id="nameTF" x="196" y="39" size="30" text="一二三四五六" anchorOffsetX="0" width="187.8" textAlign="center" textColor="0x6c3e14"/>
+	<e:Label bold="true" id="lvTF" x="202" y="81.91" textColor="0xFFFFFF" stroke="2" strokeColor="0xB97326" size="30" text="lv.99" anchorOffsetX="0" width="182.4" textAlign="center"/>
+	<e:Label bold="true" id="noneTF" text="等待对手加入" x="117" y="48" textColor="0x6c3e14" anchorOffsetX="0" width="262" textAlign="center" visible="false"/>
+</e:Skin>

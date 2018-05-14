@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GroupRankDialogSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1386" horizontalCenter="0" verticalCenter="0" strokeAlpha="1" fillAlpha="0.6" />
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0" />
+	<e:Group id="middleGroup" y="295" width="640">
+		<e:Image id="middleBg" source="cz_xlkd_png" scale9Grid="13,13,8,9" width="600" height="962" horizontalCenter="0" y="-112"  anchorOffsetY="0"/>
+		<e:Image x="610" y="-102" source="fx_jiaobiao_png" rotation="90"/>
+		<e:Image x="30" y="-102" source="fx_jiaobiao_png"/>
+
+		<e:Image y="-170" source="fx_logo_png" horizontalCenter="0" />
+
+		<e:Scroller id="scroll" width="590" height="682" y="84" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group id="list" />
+		</e:Scroller>
+		<e:Image y="34" source="fx_kuang_png"  horizontalCenter="0"/>
+		<e:Label id="groupName" text="微动工作群" y="42" size="24" horizontalCenter="0" textAlign="center" bold="true" textColor="0xfff9c7"/>
+	</e:Group>
+	<e:Group id="bottomGroup" width="640" y="1155.5"  anchorOffsetX="320" x="320" anchorOffsetY="94.5">
+		<e:Image y="43" source="cz_diban_png" horizontalCenter="0" />
+		<e:Image y="0" source="sz_db_png" horizontalCenter="0" />
+		<e:Image x="309" y="11" source="ph_fxb_png" horizontalCenter="0" />
+		<e:Label text="分享到微信群   查看群排行" y="82" textColor="0x6c3e14" size="24" horizontalCenter="0" textAlign="center" />
+		<e:Label id="shareNode0" text="可获得分享奖励" x="178" y="142" size="20"  bold="true" textColor="0xb97326"/>
+		<e:Image id="shareNode1" x="346" y="128" source="sy_tilitubiao_png" scaleX="0.8" scaleY="0.8" />
+		<e:Label id="shareNode2" text="x200" x="398" y="142" size="20" textColor="0xffffff" stroke="2" strokeColor="0xb97326" />
+	</e:Group>
+	<e:Component id="backBtn" x="63.09" y="192.43" anchorOffsetX="42" anchorOffsetY="47" skinName="CommonBackBtnSkin" />
+
+</e:Skin>

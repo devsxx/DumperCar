@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image id="bgImg" x="0" y="4" source=""/>
+	<e:Image id="suoImgBg" source="ck_wupin_suo_png" y="4" visible="false"/>
+	<e:Image id="propImg" source="" y="7" x="5"/>
+	<e:Image id="iconImg" x="81" y="0" source="ck_tubiao_dangqian_png"/>
+    <e:Image id="suoImg" source="ck_tubiao_suo_png"  x="28" y="30" visible="false"/>    
+    <e:Label bold="true" id="propLabel" text="皮帽子"   y="80" size="20" horizontalCenter="0"/>
+	<e:Label bold="true" id="itemNum" text="" right="10" size="18" textColor="0x6c3e14" y="56" textAlign="right"/>
+
+</e:Skin>

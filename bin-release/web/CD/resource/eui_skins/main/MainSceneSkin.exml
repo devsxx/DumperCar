@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" verticalCenter="113" source="new_main_bg_jpg" x="-30"/>
+	<e:Image id="carImg" source="main_front_2_png" x="-10" y="371.31" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="grassImg" source="main_front_1_png" x="26" y="951"/>
+	<e:Image source="main_front_1_png" x="493.71" y="533" id="grassImg0" visible="false"/>
+ <!--xmlns:ns1="*"-->
+	<e:Component id="tabBtn1" y="467" anchorOffsetX="138" anchorOffsetY="34" skinName="MainTabBtnComponentSkin" right="0"/>
+	<e:Component id="tabBtn2" y="538" skinName="MainTabBtnComponentSkin" anchorOffsetX="138" anchorOffsetY="34" right="0"/>
+	<e:Component id="tabBtn3" y="609" skinName="MainTabBtnComponentSkin" anchorOffsetX="138" anchorOffsetY="34" right="0"/>
+	<!--<e:Component id="tabBtn4" y="680" skinName="MainTabBtnComponentSkin" anchorOffsetX="138" anchorOffsetY="34" right="0"/>
+	<e:Component id="tabBtn5" y="751" skinName="MainTabBtnComponentSkin" anchorOffsetX="138" anchorOffsetY="34" right="0"/>-->
+
+
+	<e:Group id="middleGrp" width="640" height="0" y="810.44" horizontalCenter="0">
+		<e:Group id="personGrp" width="640" height="0" x="0"/>
+		<e:Component id="propBtn" y="61.61" skinName="MainPropComponentSkin" scaleX="1" scaleY="1" anchorOffsetX="43.94" anchorOffsetY="60.61" x="339.94" visible="false"/>
+		<e:Scroller id="propScroll" width="225.76" height="69.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-145" y="-75.69" visible="false">
+			<e:Group id="propList">
+			</e:Group>
+		</e:Scroller>
+		<e:Component id="weaponBtn" y="61.12" skinName="MainPropComponentSkin" scaleX="1" scaleY="1" anchorOffsetX="42.97" anchorOffsetY="60.12" x="470.97" visible="false"/>
+		<e:Scroller id="weaponScroll" width="225.76" height="69.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-145" y="-75.69" visible="false">
+			<e:Group id="weaponList"/>
+		</e:Scroller>
+		<e:Group id="propGrp" width="0" x="0" y="0"/>
+		<e:Component id="propMc" x="47.74" y="70.47" skinName="MainLeftDaojuSkinCom" touchEnabled="false" anchorOffsetX="90.67" anchorOffsetY="101.33"/>
+		<e:Group id="weaponGrp" width="0" x="547" y="0"/>
+		<e:Component id="weaponMc" x="595.67" y="65.32" skinName="MainRightDaojuSkinCom" touchEnabled="false" anchorOffsetX="112" anchorOffsetY="101.33"/>
+		<e:Component id="wMc" x="577" y="75.36" skinName="MainRotationComSkin" anchorOffsetX="220" anchorOffsetY="220" rotation="90" visible="false"/>
+	</e:Group>
+	<e:Group id="topUI" x="0" y="0" width="0" height="0">
+		<e:Image x="0" y="0" source="sy_dingban_png"/>
+		<e:Image id="headImg" source="" x="19.7" y="9.69" height="90" width="90"/>
+		<e:Image x="153" y="15" source="sy_zsc_png"/>
+		<e:Image x="312.21" y="15" source="sy_zsc_png"/>
+		<e:Image id="clickImg" x="11.65" y="1.99" source="sy_txk_png"/>
+		<e:Label id="nameTF" y="109.03" textColor="0xffffff" stroke="2" strokeColor="0x401908" size="20" text="玩家昵称六字" horizontalCenter="63.5" bold="true"/>
+		<e:Image id="img_coin" source="sy_jinbi_png" x="126.96" y="0.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="coinTF" x="173.96" y="18" textColor="0xffffff" stroke="2" strokeColor="0xb97326" size="22" text="999999" bold="true"/>
+
+		<e:Image id="img_diamond" source="sy_zuanshi_png" x="286.24" y="0.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="chargeBtn" x="439.35" y="26.99" anchorOffsetX="18.33" anchorOffsetY="19.66" source="new_common_buy_btn_png"/>
+		<e:Label id="diamondTF" x="332.22" y="18" textColor="0xffffff" stroke="2" strokeColor="0xb97326" size="22" text="999999" bold="true"/>
+		<e:ProgressBar id="prgMc" x="164.52" y="59.01" skinName="MainPrgComponentSkin" value="0" direction="ltr"/>
+		<e:Label id="prgTF" text="20/99" size="20" textColor="0xffffff" stroke="2" strokeColor="0xb97326" y="61.61" x="165.71" anchorOffsetX="0" width="252.33" textAlign="center" bold="true"/>
+		<e:Image id="tiImg" source="sy_tilitubiao_png" x="125.27" y="32.95" anchorOffsetX="0" anchorOffsetY="0" rotation="10"/>
+		<e:Label id="prgCd" text="14:35" size="20" stroke="2" strokeColor="0x6f3f16" x="463.57" y="61.91" textColor="0xfffcc4" anchorOffsetX="0" width="75.66" textAlign="center" bold="true"/>
+		<e:Image id="buyTiBtn" x="441.33" y="71.98" anchorOffsetX="19.33" anchorOffsetY="19.33" source="new_common_buy_btn_png"/>
+		<e:Component id="dwMc" x="107" y="260" skinName="DuanWeiComponentSkin" scaleX="1" scaleY="1" anchorOffsetX="106" anchorOffsetY="94"/>
+		<e:ProgressBar id="expPrg" x="226.02" y="100.35" skinName="MainLvPrgComSkin" value="50" scaleX="1" scaleY="1"/>
+		<e:Label id="lvTF" y="99.99" stroke="2" strokeColor="0x783d17" size="22" text="lv.99" bold="true" textColor="0xfff9c7" right="-586" textAlign="right"/>
+		<e:Image source="sy_fenx_png"  y="146" x="546"/>
+	</e:Group>
+	<e:Group id="bottomUI" x="0" y="1138" width="0" height="0">
+		<e:Component id="leftBtn" y="-40" skinName="MainBtnComSkin" x="0"/>
+		<e:Component id="rightBtn" y="-40" skinName="MainBtnComSkin" x="320"/>
+	</e:Group>
+
+	<e:Component id="mainBtn1" x="578.92" y="444.48" skinName="MainBtnComponentSkin" anchorOffsetX="44" anchorOffsetY="42" visible="false"/>
+	<e:Component x="578.92" y="561.98" skinName="MainBtnComponentSkin" id="mainBtn2" anchorOffsetX="42.42" anchorOffsetY="40.91" visible="false"/>
+	<e:Component x="578.92" y="679.98" skinName="MainBtnComponentSkin" id="mainBtn3" anchorOffsetX="42.42" anchorOffsetY="40.91" visible="false"/>
+	<e:Component x="578.92" y="796.98" skinName="MainBtnComponentSkin" id="mainBtn4" anchorOffsetX="42.42" anchorOffsetY="40.91" visible="false"/>
+	<e:Component id="mainBtn5" x="578.92" y="914.61" skinName="MainBtnComponentSkin" anchorOffsetX="42.43" anchorOffsetY="40.91" visible="false"/>
+	<e:Group id="pageGroup" >
+	</e:Group>
+	<e:Group id="guide" width="640" height="1386" visible="false">
+		<e:Group id="guideDialog" width="640" height="0" x="0" y="0">
+			<e:Image source="yd_kanbanniang_png" horizontalCenter="0" y="260" x="11" scaleX="1" scaleY="1"/>
+			<e:Label id="guideText" text="在决斗前要记得检查自己的枪！" x="183" y="303" scaleX="1" scaleY="1" size="24" anchorOffsetX="0" width="415" anchorOffsetY="0" height="108" lineSpacing="10" textColor="0x6C3E14" textAlign="left" verticalAlign="middle" bold="true" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="duelGrp" width="0" height="0" x="0" y="0" locked="true"/>
+	<e:Group id="dialogGrp" width="0" height="0" x="0" y="0"/>
+	<e:Group id="alertGroup" width="0" height="0" x="0" y="0" />
+	<e:Group id="itemsShowGrp" width="0" height="0" x="0" y="0"/>
+</e:Skin>

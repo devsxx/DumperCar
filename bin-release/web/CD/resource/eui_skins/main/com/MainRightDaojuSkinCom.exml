@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainRightDaojuSkinCom" width="214" height="204" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="new_main_menu_btn_png" x="30" y="18" touchEnabled="false"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" id="iconImg" scaleX="1" width="223.5" height="149" horizontalCenter="5" verticalCenter="2.5" touchEnabled="false" source=""/>
+	<e:Image x="57.5" y="108.5" source="new_tf_wuqi_png" touchEnabled="false"/>
+	<e:Rect id="clickImg" width="139" height="130" x="50" y="43.5" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+</e:Skin>

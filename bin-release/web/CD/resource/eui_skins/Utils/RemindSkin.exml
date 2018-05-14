@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RemindSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="rect" width="640" height="1386" x="0" y="0" fillAlpha="0.6" />
+    <e:Image source="sy_tishiban_png" horizontalCenter="0" verticalCenter="0" />
+    <e:Label id="labelInfo" bold="true" text="分享到微信群才能获得奖励" scaleX="1" scaleY="1" size="24"
+             anchorOffsetX="0" width="440" anchorOffsetY="0" height="134" lineSpacing="10"
+             textAlign="left" verticalAlign="middle" horizontalCenter="21"  y="580" textColor="0xffffff" stroke="2" strokeColor="0xb97326" />
+	<e:Image x="20" y="614.5" source="sy_tanhao_png" />
+	<e:Component id="btnLeft" y="754"  anchorOffsetX="123" anchorOffsetY="38" horizontalCenter="-133" skinName="CommonMBtnSkin"/>
+	<e:Component id="btnMiddle" y="754"  anchorOffsetX="123" anchorOffsetY="38" horizontalCenter="0" skinName="CommonMBtnSkin"/>
+    <e:Component id="btnRight" y="754"  anchorOffsetX="123" anchorOffsetY="38" horizontalCenter="133" skinName="CommonMBtnSkin"/>
+</e:Skin>

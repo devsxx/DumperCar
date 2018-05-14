@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuanWeiComponentSkin" width="212" height="187.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" horizontalCenter="0" verticalCenter="-6.5" source=""/>
+	<e:Image id="star_bg" y="126" horizontalCenter="0" source="sy_duanwei_xing_5_png" visible="false"/>
+	<e:Image id="star_bg6" y="136" horizontalCenter="0.5" source="sy_duanwei_xing_6_png"/>
+	<e:Image id="star3_1" source="sy_duanwei_zidan_png" x="56.5" y="128" visible="false"/>
+	<e:Image id="star3_2" source="sy_duanwei_zidan_png" x="94.5" y="127" visible="false"/>
+	<e:Image id="star3_3" source="sy_duanwei_zidan_png" x="129.5" y="128" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="50" y="131.5" id="star4_1" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="82.5" y="127.5" id="star4_2" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="112" y="127" id="star4_3" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="141" y="132" id="star4_4" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="42.5" y="134.5" id="star5_1" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="67" y="129.5" id="star5_2" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="95" y="125" id="star5_3" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="124.5" y="127" id="star5_4" visible="false"/>
+	<e:Image source="sy_duanwei_zidan_png" x="151" y="134.5" id="star5_5" visible="false"/>
+	<e:Label id="star6TF" text="x10086" x="89.5" y="142" size="22" bold="true" />
+	<e:Image id="star6Img" y="138" x="95" source="sy_duanwei_dankong_png"/>
+	<e:Image id="star6Img2" source="sy_duanwei_zidan_png" x="100" y="138"/>
+	<e:BitmapLabel id="numBF" height="33" y="67.5" text="" font="dw_num_fnt" horizontalCenter="0"/>
+</e:Skin>

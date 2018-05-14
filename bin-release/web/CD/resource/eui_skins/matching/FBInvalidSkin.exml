@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FBInvalidSkin" width="640" height="1386" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="ck_diban_jpg" verticalCenter="0" horizontalCenter="0.5"/>
+	<e:Image source="zd_pplogo_png" y="311" horizontalCenter="0"/>
+	<e:Label id="reasonTag" text="发起者已逃离对决" y="653" textAlign="center" textColor="0x6c3e14" size="24" horizontalCenter="0"/>
+	<e:Label id="specialTag" text="你可以自己发起一场战斗，或者去参加排位赛模式" y="693" textAlign="center" size="20" horizontalCenter="0" textColor="0xb97527"/>
+	<e:Component id="btn0" y="915" anchorOffsetX="152" anchorOffsetY="38" horizontalCenter="0.5" skinName="CommonLBtnSkin" visible="false"/>
+	<e:Component id="btn1" y="1025" anchorOffsetX="152" anchorOffsetY="38" skinName="CommonLBtnSkin" horizontalCenter="0.5" visible="false"/>
+	<e:Component id="btn2" y="970" anchorOffsetX="152" anchorOffsetY="38" skinName="CommonLBtnSkin" horizontalCenter="0.5" visible="false"/>
+</e:Skin>

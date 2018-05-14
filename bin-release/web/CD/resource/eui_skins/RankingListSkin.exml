@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankingListSkin" width="560" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="900" width="560" fillAlpha="0.6"/>
+	<e:Label id="trainRanking" text="训练成绩" y="26" horizontalCenter="-100"/>
+	<e:Label id="duelRanking" text="对战成绩" y="26" horizontalCenter="100"/>
+	<e:Label id="tagTraining" text="射击次数            命中次数            爆头次数" x="20" y="82" size="24"/>
+	<e:Label id="tagDuel" text="对战次数            胜利次数            失败次数" x="20" y="82" size="24" visible="false"/>
+	<e:Label text="全体排名" y="146" horizontalCenter="0"/>
+	<e:Group width="530" height="600" y="200" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0"/>
+	<e:Label id="btnStart" text="开始训练" y="836" horizontalCenter="-100"/>
+	<e:Label id="btnMulti" text="开始匹配" y="836" horizontalCenter="100"/>
+	<e:Label id="totalShootLabel" text="999" y="83" size="24" horizontalCenter="-123.5" textColor="0xff0000"/>
+	<e:Label id="totalHitLabel" text="999" y="83" size="24" horizontalCenter="51.5" textColor="0xff0000"/>
+	<e:Label id="headHitLabel" text="999" y="83" size="24" horizontalCenter="228.5" textColor="0xff0000"/>
+</e:Skin>
