@@ -164,7 +164,7 @@ var Main = (function (_super) {
     };
     Main.prototype.createGameScene = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var dispatcher, openid;
+            var dispatcher, openid, scene;
             return __generator(this, function (_a) {
                 dispatcher = weedon.config(
                 // DEBUG_MODE ? (typeof GameGlobal !== "undefined" ? "192.168.1.10" : typeof location === "undefined" || ~location.hostname.indexOf(".h5") ? "" : location.hostname) : "",9601,"ws",()=>{},(typeof GameGlobal !== "undefined" && !DEBUG_MODE) || location.protocol == "https:" || ~location.href.indexOf("h5.") ?  "wss://xbwz.hortor.net": null
@@ -174,39 +174,8 @@ var Main = (function (_super) {
                     openid = Math.random().toString();
                     egret.localStorage.setItem("DUMPER#OPENID", openid);
                 }
-                weedon.getLoginData(function (err, loginData) {
-                    return __awaiter(this, void 0, void 0, function () {
-                        var _this = this;
-                        return __generator(this, function (_a) {
-                            dispatcher.request("user.login", { loginData: loginData }, (function (err) { return __awaiter(_this, void 0, void 0, function () {
-                                var userSetting, scene;
-                                return __generator(this, function (_a) {
-                                    if (err) {
-                                        return [2 /*return*/, alert(err.errmsg || "登录失败")];
-                                    }
-                                    userSetting = dispatcher.get("user", "userSetting") || 0;
-                                    MUTE_SE = ((userSetting & (1 << 1)) == 0);
-                                    dispatcher.heartbeat(5000, function () { });
-                                    weedon.initChannelConfig({
-                                        inviter: dispatcher.get("user", "_id"),
-                                        nickname: dispatcher.get("user", "nickname"),
-                                        wxGame: {}
-                                    }, function (state) {
-                                        var cb = dispatcher.getCache("shareCallback");
-                                        cb && cb(state || 0);
-                                    }, function (state) {
-                                    });
-                                    scene = new MainScene(dispatcher);
-                                    //  let scene = new CreateBattleScene(dispatcher);
-                                    this.addChild(scene);
-                                    this.stage.removeChild(this.loadingView);
-                                    return [2 /*return*/];
-                                });
-                            }); }).bind(this));
-                            return [2 /*return*/];
-                        });
-                    });
-                }.bind(this));
+                scene = new Box2dTest();
+                this.addChild(scene);
                 return [2 /*return*/];
             });
         });
@@ -214,3 +183,4 @@ var Main = (function (_super) {
     return Main;
 }(eui.UILayer));
 __reflect(Main.prototype, "Main");
+//# sourceMappingURL=Main.js.map

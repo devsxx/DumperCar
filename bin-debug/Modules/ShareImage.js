@@ -93,3 +93,4 @@ var ShareImage = (function (_super) {
     return ShareImage;
 }(egret.DisplayObjectContainer));
 __reflect(ShareImage.prototype, "ShareImage");
+//# sourceMappingURL=ShareImage.js.map

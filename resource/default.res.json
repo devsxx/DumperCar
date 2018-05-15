@@ -1,5 +1,10 @@
 {
-	"groups": [],
+	"groups": [
+		{
+			"keys": "bg_png",
+			"name": "preload"
+		}
+	],
 	"resources": [
 		{
 			"url": "assets/.DS_Store",

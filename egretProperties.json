@@ -37,8 +37,8 @@
 			"name": "promise"
 		},
 		{
-			"name":"p2lib",
-			"path":"../P2Lib"
+			"name":"box2lib",
+			"path":"../Box2Lib"
 		}
 	]
 }

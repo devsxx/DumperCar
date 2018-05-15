@@ -125,3 +125,4 @@ function setQRCode(target, inviter, callback) {
         loader.load(url);
     }
 }
+//# sourceMappingURL=Utils.js.map

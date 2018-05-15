@@ -106,3 +106,4 @@ var HpBar = (function (_super) {
     return HpBar;
 }(egret.DisplayObjectContainer));
 __reflect(HpBar.prototype, "HpBar");
+//# sourceMappingURL=HpBar.js.map

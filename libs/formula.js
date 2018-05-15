@@ -17,11 +17,7 @@ typeof GameGlobal !== "undefined" && (GameGlobal.formula = module.exports);
          return distanceCC < circle1.width/2+circle2.width/2; 
       }
     },
-    checkRRRectangle:{
-      value:function(rect1,rect2){
-        let 
-      }
-    },
+    
     getDistancePP: {
       value: function (x1, y1, x2, y2) {
         return Math.pow((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1),0.5);

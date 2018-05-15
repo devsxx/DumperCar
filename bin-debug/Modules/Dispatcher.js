@@ -64,3 +64,4 @@ var Dispatcher = (function () {
     return Dispatcher;
 }());
 __reflect(Dispatcher.prototype, "Dispatcher");
+//# sourceMappingURL=Dispatcher.js.map
